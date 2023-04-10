@@ -3,15 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Person.h"
 #include "UObject/NoExportTypes.h"
-#include "Student.generated.h"
+#include "Person.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UNREALBUILDSYSTEM_API UStudent : public UPerson
+class COMMONUTILITY_API UPerson : public UObject
 {
 	GENERATED_BODY()
 	
